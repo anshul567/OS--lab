@@ -24,7 +24,7 @@ main()
 	cout<<"Enter the no. of processes"<<endl;
 	cin>>n;
 	int WT[n],TAT[n],BT[n];
-	//here WT=wating time,TAT=turn around time,BT=burst time of the process
+	//here WT=waiting time,TAT=turn around time,BT=burst time of the process
 	cout<<"Enter the Burst time of processes"<<endl;
 	for(int i=0;i<n;i++)
 	cin>>BT[i];
@@ -39,7 +39,7 @@ main()
 	}
 	for(int i=0;i<n;i++)
 	TAT[i]=BT[i]+WT[i];
-	cout<<"......Wating Time......"<<endl;
+	cout<<"......Waiting Time......"<<endl;
 	show(WT);
 	cout<<"....Turn Around Time...."<<endl;	
 	show(TAT);
