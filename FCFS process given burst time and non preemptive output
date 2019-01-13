@@ -1,0 +1,23 @@
+Enter the no. of processes
+4
+Enter the Burst time of processes
+8
+5
+4
+3
+......Waiting Time......
+0
+3
+7
+12
+....Turn Around Time....
+3
+7
+12
+20
+Average Waiting Time = 5.5
+Average Turn Around Time = 10.5
+
+--------------------------------
+Process exited after 20.97 seconds with return value 0
+Press any key to continue . . .
